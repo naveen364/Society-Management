@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+  background: linear-gradient(-90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+	overflow: hidden;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 25%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.login-box{
+	max-width: 700px;
+	float: none;
+	margin: 150px auto;
+}
+
+.login-block{
+	background: rgba(211,211,211,0.5);
+	padding: 30px;
+	margin-left: 180px;
+	border-radius: 20px;
+}
+
+.form-control{
+	background-color: transparent !important;
+	color: #fff !important;
+}
+
+h2{
+	color: #fff !important;
+}
+@media screen and (max-width: 700px) {
+.login-box{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.login-block{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+  
+}
+
+@media screen and (max-width: 400px) {
+  
+
+}

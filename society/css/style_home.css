@@ -1,0 +1,54 @@
+body{
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url("bg_home");
+	background-size: cover;
+	background-position: center;
+}
+
+.login-box{
+	max-width: 700px;
+	float: none;
+	margin: 150px auto;
+}
+
+.login-left{
+	background: rgba(211,211,211,0.5);
+	padding: 30px;
+}
+
+.login-right{
+	background: #fff;
+	padding: 30px;
+}
+
+.form-control{
+	
+}
+
+h1{
+	color: #fff !important;
+	margin-top: 100px !important;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*registration allotment css*/
+.reg-block{
+	background: #fff;
+	padding: 30px;
+	margin-left: 180px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+.reg-block1{
+	background: #fff;
+	padding: 30px;
+	margin-left: 300px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
