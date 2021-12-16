@@ -18,6 +18,10 @@ Management System allows members to login with their own account and get
 updated with society happenings. There is a payment option only BHIM UPI for
 future there will be available for card payment. Now just have to pay your charges to
 admin directly or by BHIM UPI.
+> 
+
+https://user-images.githubusercontent.com/53285910/146336875-d70b860b-4734-4511-ac68-0857ba5d29b0.mp4
+
 
 
 
