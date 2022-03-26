@@ -54,8 +54,8 @@
 			$mail->SMTPSecure = "tls";
 			$mail->Port       = 587;
 			$mail->Host       = "smtp.gmail.com";
-			$mail->Username   = "npandit364@gmail.com";
-			$mail->Password   = "bnpandit123";
+			$mail->Username   = "@gmail.com";
+			$mail->Password   = "password";
 			$mail->IsHTML(true);
 			$mail->AddAddress($e_mail, $username);
 			$mail->SetFrom("npandit364@gmail.com", "admin");
